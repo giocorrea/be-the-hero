@@ -11,8 +11,6 @@ const SessionController = require('./controllers/SessionController');
 
 const routes = express.Router();
 
-
-
 /** cria uma ong atrabvés do método dentro do controle (método CREATE) */
 routes.post('/ongs', OngController.create);
 /** Lista todas as ongs */
