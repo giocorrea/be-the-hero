@@ -23,6 +23,6 @@ routes.delete('/incidents/:id', IncidentController.delete);
 
 routes.get('/profile', ProfileController.index);
 
-routes.get('/sessions', SessionController.create);
+routes.post('/sessions', SessionController.create);
 
 module.exports = routes;
