@@ -1,0 +1,1 @@
+testes de integração testam um fluxo inteiro da aplicação, des de a chamada até o retorno e tuo mais
